@@ -1,0 +1,72 @@
+# .project metadata for container2wasm
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set slack_channels
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "container2wasm"
+name: "container2wasm"
+description: "A tool to run containers on Wasm-enabled environments."
+type: "project"
+project_lead: "ktock" # TODO: AUTO-DETECTED — please verify
+# TODO: Set CNCF Slack channel(s)
+# slack_channels:
+#   - name: "#container2wasm"
+#     primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2025-01-21T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/123" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/container2wasm/container2wasm"
+
+website: "https://github.com/container2wasm/container2wasm"
+
+artwork: "https://landscape.cncf.io/logos/container2wasm.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/container2wasm/container2wasm/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "container2wasm/container2wasm"
+
+
+security:
+  policy:
+    path: "https://github.com/container2wasm/container2wasm/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/container2wasm/container2wasm/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/container2wasm/container2wasm/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/container2wasm/container2wasm/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/container2wasm/container2wasm/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/container2wasm/container2wasm/blob/main/README.md"
+
+landscape:
+  category: "Wasm"
+  subcategory: "Orchestration & Management"
+
+# CLOMonitor Score: 68/100
+# Documentation: 93 | License: 100 | Best Practices: 26 | Security: 55
