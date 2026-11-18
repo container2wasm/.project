@@ -27,7 +27,7 @@ repositories:
 
 website: "https://github.com/container2wasm/container2wasm"
 
-artwork: "https://landscape.cncf.io/logos/container2wasm.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/container2wasm"
 
 # TODO: Add ADOPTERS.md if your project tracks adopters
 # adopters:
